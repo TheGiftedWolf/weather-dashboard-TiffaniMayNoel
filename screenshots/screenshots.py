@@ -1,0 +1,1 @@
+# This directory is meant for storing images that will be included in the README file to illustrate the application's features and user interface.
