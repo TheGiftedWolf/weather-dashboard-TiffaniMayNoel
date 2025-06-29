@@ -4,6 +4,7 @@ import requests
 import json
 from datetime import datetime
 import config  # Importing the configuration settings
+from config import API_KEY, Base_URL  # Importing specific settings from config.py
 
 class WeatherApp:
     def __init__(self):
@@ -13,7 +14,7 @@ class WeatherApp:
         
         # API configuration
         self.api_key = config.API_KEY  # Using the API key from config.py
-        self.base_url = "http://api.openweathermap.org/data/2.5/weather"
+        self.base_url = config.Base_URL  # Using the base URL from config.py"
         
         self.setup_gui()
         
@@ -96,3 +97,54 @@ class WeatherApp:
 if __name__ == "__main__":
     app = WeatherApp()
     app.run()
+
+
+# def add_numbers(a, b):
+#     """
+#     Adds two numbers together.
+    
+#     Parameters:
+#     a (int, float): The first number.
+#     b (int, float): The second number.
+    
+#     Returns:
+#     int, float: The sum of the two numbers.
+#     """
+#     return a + b
+
+def convert_to_fahrenheit(celsius):
+    """
+    Converts Celsius to Fahrenheit.
+    
+    Parameters:
+    celsius (float): Temperature in Celsius.
+    
+    Returns:
+    float: Temperature in Fahrenheit.
+    """
+    return (celsius * 9/5) + 32
+
+import requests
+def fetch_weather(city, state):
+    try:
+        url = f"{Base_URL}?q={city},{state},US&appid={API_KEY}&units=metric"
+        response = requests.get(url)
+        if response.status_code != 200:
+            return {"error": "city not found"}
+
+        data = response.json()
+        temp_k = data.get("current", {}).get("temp_k")
+        if temp_k is None:
+            return {"error": "No weather data"}
+
+        description = data.get("current", {}).get("condition", {}).get("text", "No description")
+        temp_c = round(temp_k - 273.15, 1)
+
+        return {
+            "city": city,
+            "temp_c": temp_c,
+            "description": description
+        }
+
+    except requests.exceptions.RequestException:
+        return {"error": "Network error"}
