@@ -1,1 +1,13 @@
 # This file will be added in Week 16 with the necessary packages.
+requests
+tkinter-tooltip
+python-dotenv
+pandas
+sqlite3
+json
+datetime
+numpy
+# Note: The versions specified are examples and may need to be updated based on the actual requirements and compatibility.
+# Ensure to run `pip install -r requirements.txt` to install the necessary packages.
+# Additional packages may be added as needed for the project.
+# This file is essential for setting up the environment for the Weather Dashboard application.
