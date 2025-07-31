@@ -1,3 +1,27 @@
-2025-07-09 18:07:41.686076,Las Vegas,108.73,clear sky
-2025-07-09 18:08:02.059012,Atlanta,81.28,thunderstorm
-2025-07-09 18:08:17.249373,Tulsa,87.55,clear sky
+2025-07-29 13:35:57.195210,Atlanta,96.46,few clouds
+2025-07-29 13:37:55.162906,Atlanta,96.46,few clouds
+2025-07-29 13:42:32.907975,Las Vegas,103.62,few clouds
+2025-07-29 13:44:56.823972,Atlanta,96.26,few clouds
+2025-07-29 13:46:19.274369,Las Vegas,103.62,few clouds
+2025-07-29 13:57:27.128030,Atlanta,97.2,few clouds
+2025-07-29 17:53:31.908671,Atlanta,82.83,thunderstorm
+2025-07-29 18:07:36.841144,Las Vegas,105.44,few clouds
+2025-07-29 18:10:35.175523,Las Vegas,104.43,clear sky
+2025-07-29 18:22:20.848323,Atlanta,79.54,thunderstorm
+2025-07-30 16:20:06.947063,Atlanta,88.41,few clouds
+2025-07-30 16:27:17.110728,Atlanta,88.41,few clouds
+2025-07-30 16:41:18.676132,Atlanta,87.85,few clouds
+2025-07-30 17:53:49.276701,Atlanta,84.69,moderate rain
+2025-07-30 17:58:12.572615,Atlanta,84.36,thunderstorm
+2025-07-30 17:59:23.956518,Atlanta,84.36,thunderstorm
+2025-07-30 18:00:50.582269,Atlanta,83.84,moderate rain
+2025-07-30 18:03:03.237484,Atlanta,83.84,moderate rain
+2025-07-30 18:05:31.460927,Atlanta,83.84,moderate rain
+2025-07-30 18:07:33.650469,Atlanta,83.3,light rain
+2025-07-30 18:09:33.428548,Atlanta,83.3,light rain
+2025-07-30 18:12:03.868754,Atlanta,82.58,thunderstorm
+2025-07-30 18:12:56.198508,Atlanta,82.58,thunderstorm
+2025-07-30 18:13:24.173931,Atlanta,82.58,thunderstorm
+2025-07-30 18:15:46.169009,Atlanta,82.58,thunderstorm
+2025-07-30 18:26:15.074276,Las Vegas,100.98,clear sky
+2025-07-30 18:26:26.479890,Seattle,80.37,clear sky
